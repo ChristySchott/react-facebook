@@ -49,15 +49,15 @@ O projeto é uma reprodução das páginas inicial e perfil do usuário do Faceb
 
 Página Inicial:
 
-![Image Facebook]()
+![Image Facebook](https://github.com/ChristySchott/react-facebook/blob/master/layout/layout3.JPG)
 
-![Image Facebook]()
+![Image Facebook](https://github.com/ChristySchott/react-facebook/blob/master/layout/layout4.JPG)
 
 Perfil:
 
-![Image Facebook]()
+![Image Facebook](https://github.com/ChristySchott/react-facebook/blob/master/layout/layout1.JPG)
 
-![Image Facebook]()
+![Image Facebook](https://github.com/ChristySchott/react-facebook/blob/master/layout/layout2.JPG)
 
 ### Aprendizados:
 
