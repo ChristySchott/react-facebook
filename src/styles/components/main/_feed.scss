@@ -1,0 +1,23 @@
+.feed {
+    flex: 2;
+    @include flexCenter;
+    flex-direction: column;
+    padding: 0 10px;
+
+    &__container {
+        @include flexCenter;
+        flex-direction: column;
+
+        width: 500px;
+        max-width: 500px;
+    }
+}
+
+.wrapper {
+    margin-top: 15px;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    width: 500px;
+}

@@ -1,0 +1,62 @@
+.sidebar-container {
+    flex: 1;
+    position: relative;
+    max-width: 300px;
+}
+
+.sidebar {
+    position: fixed;
+    max-width: 300px;
+    left: 0;
+    padding-left: 25px;
+
+    &:hover {
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+
+    &__shortcut {
+        padding-top: 15px;
+        border-top: 1px solid rgb(219, 220, 223);
+
+        &--item {
+            margin: 0 !important;
+            padding: 15px 0;
+        }
+
+        &--copyright {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                a {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+.sidebar-item {
+    @include flexCenter;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &__text {
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__box-img {
+        position: relative;
+        img {
+            width: 36px;
+        }
+    }
+}
+
+.chat__online {
+    bottom: 7px;
+    right: 0px;
+}

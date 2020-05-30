@@ -1,0 +1,13 @@
+.list-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-footer li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.copyright {
+    color: rgba(0, 0, 0, .4);
+    margin-top: 10px;
+}

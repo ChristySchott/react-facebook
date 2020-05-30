@@ -1,0 +1,23 @@
+.container-profile {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    &__header { 
+        width: 100%;
+        background: white;
+        height: 547px;
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+
+        &--menu {
+            width: 100%;
+            background: linear-gradient(to top, #FFFFFF, rgb(255, 255, 255), rgba(255,255,255,0.7), rgba(255,255,255,0.4), rgba(255,255,255,0));;
+            height: 385px;
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+        }
+    }
+}

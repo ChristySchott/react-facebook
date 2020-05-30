@@ -1,0 +1,59 @@
+.stories {
+    @include flexCenter;
+}
+
+.story {
+    position:relative;
+
+    max-width: 115px;
+    min-width: 115px;
+    height: 200px;
+    border-radius: 7px;
+    align-items: flex-start;
+    overflow: hidden;
+
+    &--me {
+        @include flexCenter;
+        justify-content: center;
+    }
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &__text {
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        padding: 10px 5px;
+        color: white;
+    }
+
+    &__img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgb(106, 179, 221);
+            border: 3px solid rgb(52, 52, 204);
+
+            img {
+                width: 100%;
+            }
+
+            &--me {
+                border: none;
+                width: 36px;
+                height: 36px;
+                background: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(106, 179, 221);
+            }
+    }
+
+}

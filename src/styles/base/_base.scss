@@ -1,0 +1,101 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $m-size;
+    background: $main;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.container {
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #65676B;
+}
+
+.icon {
+    color: #65676B;
+    
+    &--right {
+        color: black;
+    }
+
+    &__birthday {
+        color: #65676B;
+        position: absolute;
+        bottom: 8px;
+        right: 12px;
+    }
+
+    &__group {
+        border: 1px solid #65676B;
+        border-radius: 50%;
+        padding: 2px;
+    }
+}
+
+.title {
+    font-size: 17px;
+    color: #65676B;
+}
+
+.input {
+    padding: 12px;
+    border: none;
+    background: $main;
+    border-radius: 100px;
+    padding-left: 35px;
+
+    &__birthday {
+        width: 440px;
+        padding: 8px;
+    }
+}
+
+.input--status {
+    padding-left: 15px;
+    width: 420px;
+}
+
+.aux-padding {
+    padding: 8px 15px;
+}

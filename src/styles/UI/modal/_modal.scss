@@ -1,0 +1,53 @@
+.modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 16px;
+    left: 30%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0;
+
+    &-birthday {
+        &__header {
+            text-align: center;
+        }
+        &__content {
+            display: flex;
+            align-items: flex-start;
+            padding: 10px 0;
+            border-bottom: 1px solid #E4E6EB;
+            border-top: 1px solid #E4E6EB;
+            margin: 10px 0;
+
+            &--text {
+                flex: 3;
+
+                &--name {
+                    @include flexCenter;
+                    justify-content: space-between;
+                }
+                
+                &--input {
+                    position: relative;
+                    margin-top: 5px;
+                }
+            }
+
+
+            &--box {
+                padding-right: 10px;
+
+                img {
+                    width: 60px;
+                }
+            }
+
+        }
+    }
+}
+

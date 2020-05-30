@@ -1,0 +1,29 @@
+@import './base/settings';
+@import './base/base';
+
+//Components
+@import './components/button';
+@import './components/header';
+@import './components/footer';
+
+//Main
+@import './components/main/feed';
+@import './components/main/main';
+@import './components/main/post';
+@import './components/main/rooms';
+@import './components/main/sibedar';
+@import './components/main/social';
+@import './components/main/status';
+@import './components/main/stories';
+
+// Profile
+@import './components/profile/about';
+@import './components/profile/content';
+@import './components/profile/cover';
+@import './components/profile/feed';
+@import './components/profile/menu';
+@import './components/profile/profile';
+
+// UI
+@import './UI/backdrop/backdrop';
+@import './UI/modal/modal';

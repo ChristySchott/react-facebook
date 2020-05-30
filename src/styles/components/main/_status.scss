@@ -1,0 +1,44 @@
+.status {
+
+    &__header {
+        display: flex;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        justify-content: space-between;
+
+        &--img {
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    &__actions {
+        padding: 10px 0;
+        border-top: 1px solid $main;
+        display:flex;
+        justify-content: center;
+
+        ul {
+            @include flexCenter;
+            justify-content: space-around;
+            width: 100%;
+
+            li:not(:last-child) {
+                margin-right: 15px;
+            }
+
+            li a {
+                @include flexCenter;
+
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.svg {
+    margin-right: 8px;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "clone-instagram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christy Schott",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "^3.5.3",
+    "live-server": "^1.2.0",
+    "normalize.css": "7.0.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-icons": "^3.10.0",
+    "react-modal": "2.2.2",
+    "react-modals": "0.0.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "sass-loader": "6.0.6",
+    "semantic-ui-react": "^0.81.2",
+    "style-loader": "0.18.2",
+    "styled-components": "^5.1.1",
+    "validator": "8.0.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "svg-url-loader": "^5.0.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

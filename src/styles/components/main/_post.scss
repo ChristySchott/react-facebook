@@ -1,0 +1,130 @@
+.post {
+    padding: 0;
+
+    &__header {
+        @include flexCenter;
+        justify-content: space-between;
+
+        &--info {
+            @include flexCenter;
+
+            &--name {
+                p {
+                    font-weight: 500;
+                }
+
+                a {
+                    font-size: 13px;
+                }
+            }
+
+            &--img {
+                margin-right: 10px;
+
+                img {
+                    width: 42px;    
+                }
+            }
+        }
+    }
+
+    &__actions {
+        &--reactions {
+
+            &__header {
+                @include flexCenter;
+                justify-content: space-between;
+
+                .emojis {
+                    @include flexCenter;
+
+                    ul {
+                        @include flexCenter; 
+                    }
+                    
+                    .count {
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            &__actions {
+                @include flexCenter;
+                justify-content: center;
+
+                padding: 10px 40px;
+                border-top: 1px solid #CED0D4;
+                border-bottom: 1px solid #CED0D4;
+                margin-top: 7px;
+
+                .ul {
+                    @include flexCenter;
+                    justify-content: space-around;
+                    width: 100%;
+
+                    a {
+                        @include flexCenter;
+                    }
+                }
+            }
+        }
+
+        &--comments {
+            .title {
+                margin: 8px 0;
+            }
+
+            .more {
+                font-size: 13px;
+            }
+
+            &--content {
+                display: flex;
+                justify-content: flex-start;
+
+                .content {
+                    margin-left: 5px;
+
+                    .box-comment {
+                        background: $main;
+                        border-radius: 15px;
+                        padding: 5px 10px;
+                    }
+
+                    &__actions ul {
+                        @include flexCenter;
+                        margin-left: 8px;
+
+                        li a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &--interact {
+            @include flexCenter;
+            position: relative;
+
+            &--input {
+                .interact {
+                    padding: 10px 15px;
+                    width: 430px;
+                    margin-left: 10px;
+                }
+
+                ul {
+                    @include flexCenter;
+                    position: absolute;
+                    top: 10px;
+                    right: 8px;
+
+                    li + li {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

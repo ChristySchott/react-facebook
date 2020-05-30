@@ -1,0 +1,51 @@
+.social-container {
+    flex: 1;
+    position: relative;
+    max-width: 300px;
+}
+
+.social {
+    position: fixed;
+    max-width: 300px;
+    max-height: 90vh;
+    right: 0;
+    padding-right: 10px;
+
+    &:hover {
+        overflow-y: scroll;
+    }
+}
+
+.birthday {
+    cursor: pointer;
+
+    &__content {
+        @include flexCenter;
+        padding: 20px 0;
+        border-bottom: 1px solid rgb(227, 229, 233);
+
+        img {
+            width: 36px;
+        }
+
+        &--text {
+            margin-left: 10px;
+        }
+    }
+}
+
+.contact {
+    @include flexCenter;
+    justify-content: space-between;
+    margin: 10px 0;
+
+    &__actions {
+        ul {
+            @include flexCenter;
+
+            li:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+    }
+}
